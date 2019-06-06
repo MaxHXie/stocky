@@ -29,7 +29,7 @@ def sma_50_200(data):
 
     def calculate_certainty(short_mavg, long_mavg):
             slope_difference = (short_mavg.iloc[-1] / short_mavg.iloc[-2] ) - ( long_mavg.iloc[-1] / long_mavg.iloc[-2] )
-            certainty = (functions.sigmoid(slope_difference) - 0.5) * 2
+            certainty = abs((functions.sigmoid(slope_difference) - 0.5) * 2)
             return certainty
 
     #----------#
