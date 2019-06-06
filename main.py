@@ -42,7 +42,8 @@ def initialize_variables():
 def main():
 	borsdata, stocks = initialize_api()
 	start_date, end_date, initialize, algorithm_list = initialize_variables()
-	file_name = "Report Starting from " + str(start_date)
+	todays_date = datetime.date.today()
+	file_name = "[" + str(todays_date) + "] Report from " + str(start_date) + " to " + str(end_date)
 	if initialize != False:
 		initialize_files(borsdata, stocks, start_date, end_date)
 
