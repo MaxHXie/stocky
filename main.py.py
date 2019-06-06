@@ -50,11 +50,11 @@ def main():
 		for algorithm in algorithm_list:
 			try:
 				stock_df = pd.read_csv('data/' + stock.name + '.csv', sep=',') # Read data
-				recommendation_df = algorithm.recommend(stock_df, time_window=10) # Run data through algorithm
+				recommendation_df = algorithm.recommend(stock_df) # Run data through algorithm
 				if not recommendation_df.empty:
 					''' Store the recommendations '''
 					recommendation_df.insert(loc=0, column='Stock name', value=stock.name)
-					recommendation_df.to_csv('reports/' + file_name + '.csv', mode='a', index=False) # Store recommendations
+					recommendation_df.to_csv('reports/' + file_name + '.csv', mode='a', index=False, header=False) # Store recommendations
 
 			except FileNotFoundError:
 				print('Could not retrieve file: data/' + stock.name + '.csv')
