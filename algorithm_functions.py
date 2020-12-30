@@ -10,7 +10,7 @@ That dataframe only returns the buy/sell decision for the data in the single poi
 def sma_50_200(data):
     '''
         INPUT
-            data: DataFrame(Date, Highest price, Lowest price, Closing price, Opening price, Volatility)
+            data: DataFrame(Date, High, Low, Close, Open, Volume)
         OUTPUT
             recommendation_df: ONE ROW DataFrame(Signal, Certainty, Datetime, Algorithm name)
     '''
@@ -43,8 +43,8 @@ def sma_50_200(data):
     if len(data.index) < 3:
         return empty_df
 
-    calc_df['short_mavg'] = data['Closing price'].rolling(window=short_window, center=False).mean()
-    calc_df['long_mavg'] = data['Closing price'].rolling(window=long_window, center=False).mean()
+    calc_df['short_mavg'] = data['Close'].rolling(window=short_window, center=False).mean()
+    calc_df['long_mavg'] = data['Close'].rolling(window=long_window, center=False).mean()
 
     signal = calculate_signal(calc_df['short_mavg'], calc_df['long_mavg'])
     certainty = calculate_certainty(calc_df['short_mavg'], calc_df['long_mavg'])

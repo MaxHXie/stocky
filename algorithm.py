@@ -29,7 +29,7 @@ class Algorithm:
     def recommend(self, data):
         '''
             INPUT
-                data: DataFrame(Date, Highest price, Lowest price, Closing price, Opening price, Volatility)
+                data: DataFrame(Date, High, Low, Close, Open, Volume)
                 time_window: Int. Number of time units back in time to calculate and offer a recommendation for.
             OUTPUT
                 recommendation_df: DataFrame(Signal, Certainty, Datetime, Algorithm name)
@@ -57,7 +57,6 @@ class Algorithm:
             ''' Adjust future_data and lookback_data one time_unit as time moves forward with one time_unit '''
             future_data.pop(0)
             lookback_data.append(datapoint)
-
             signal_list, certainty_list = recommend(lockback_data)
             signal = signal_list[0]
             certainty = certainty_list[0]
