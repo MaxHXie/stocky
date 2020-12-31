@@ -1,130 +1,238 @@
 ,label
 0,"Date
-2020-01-31    0.888006
+2020-01-31   -1.742472
 Name: Close, dtype: float64"
 1,"Date
-2020-02-03    0.805988
+2020-02-03   -2.085839
 Name: Close, dtype: float64"
 2,"Date
-2020-02-04    0.73506
+2020-02-04   -1.681475
 Name: Close, dtype: float64"
 3,"Date
-2020-02-05    0.105529
+2020-02-05   -1.64745
 Name: Close, dtype: float64"
 4,"Date
-2020-02-06    0.022838
+2020-02-06   -1.375867
 Name: Close, dtype: float64"
 5,"Date
-2020-02-07    0.594454
+2020-02-07   -1.693697
 Name: Close, dtype: float64"
 6,"Date
-2020-02-10    0.526703
+2020-02-10   -1.63732
 Name: Close, dtype: float64"
 7,"Date
-2020-02-11   -0.215112
+2020-02-11   -1.045949
 Name: Close, dtype: float64"
 8,"Date
-2020-02-12   -0.375128
+2020-02-12   -0.962696
 Name: Close, dtype: float64"
 9,"Date
-2020-02-13   -1.893561
+2020-02-13   -1.051551
 Name: Close, dtype: float64"
 10,"Date
-2020-02-14   -1.893561
+2020-02-14   -0.972417
 Name: Close, dtype: float64"
 11,"Date
-2020-02-17   -0.23094
+2020-02-17   -1.00084
 Name: Close, dtype: float64"
 12,"Date
-2020-02-18   -1.230682
+2020-02-18   -1.146707
 Name: Close, dtype: float64"
 13,"Date
-2020-02-19   -1.126872
+2020-02-19   -1.153003
 Name: Close, dtype: float64"
 14,"Date
-2020-02-20   -1.026599
+2020-02-20   -1.234998
 Name: Close, dtype: float64"
 15,"Date
-2020-02-21   -2.022491
+2020-02-21   -1.135462
 Name: Close, dtype: float64"
 16,"Date
-2020-02-24   -3.056879
+2020-02-24   -2.039018
 Name: Close, dtype: float64"
 17,"Date
-2020-02-25   -2.297717
+2020-02-25   -2.068665
 Name: Close, dtype: float64"
 18,"Date
-2020-02-26   -2.080754
+2020-02-26   -1.860596
 Name: Close, dtype: float64"
 19,"Date
-2020-02-27   -1.562913
+2020-02-27   -1.748847
 Name: Close, dtype: float64"
 20,"Date
-2020-02-28   -2.167409
+2020-02-28   -1.318697
 Name: Close, dtype: float64"
 21,"Date
-2020-03-02   -1.401744
+2020-03-02   -0.62819
 Name: Close, dtype: float64"
 22,"Date
-2020-03-03   -1.514727
+2020-03-03   -0.70225
 Name: Close, dtype: float64"
 23,"Date
-2020-03-04   -1.119515
+2020-03-04   -0.55636
 Name: Close, dtype: float64"
 24,"Date
-2020-03-05   -1.266279
+2020-03-05   -1.27982
 Name: Close, dtype: float64"
 25,"Date
-2020-03-06   -1.713545
+2020-03-06   -1.246112
 Name: Close, dtype: float64"
 26,"Date
-2020-03-09   -1.546618
+2020-03-09   -1.52305
 Name: Close, dtype: float64"
 27,"Date
-2020-03-10   -1.069045
+2020-03-10   -1.301636
 Name: Close, dtype: float64"
 28,"Date
-2020-03-11   -0.977204
+2020-03-11   -0.651566
 Name: Close, dtype: float64"
 29,"Date
-2020-03-12   -2.544358
+2020-03-12   -1.946332
 Name: Close, dtype: float64"
 30,"Date
-2020-03-13   -2.130205
+2020-03-13   -1.674043
 Name: Close, dtype: float64"
 31,"Date
-2020-03-16   -1.847069
+2020-03-16   -1.79738
 Name: Close, dtype: float64"
 32,"Date
-2020-03-17   -1.976382
+2020-03-17   -1.778884
 Name: Close, dtype: float64"
 33,"Date
-2020-03-18   -1.608189
+2020-03-18   -1.32032
 Name: Close, dtype: float64"
 34,"Date
-2020-03-19   -1.775548
+2020-03-19   -1.034168
 Name: Close, dtype: float64"
 35,"Date
-2020-03-20   -1.468392
+2020-03-20   -0.283243
 Name: Close, dtype: float64"
 36,"Date
-2020-03-23   -1.346459
+2020-03-23   -1.463184
 Name: Close, dtype: float64"
 37,"Date
-2020-03-24   -1.217028
+2020-03-24   -0.181167
 Name: Close, dtype: float64"
 38,"Date
-2020-03-25   -1.582245
+2020-03-25   -0.460087
 Name: Close, dtype: float64"
 39,"Date
-2020-03-26   -1.422129
+2020-03-26   -0.65465
 Name: Close, dtype: float64"
 40,"Date
-2020-03-27   -1.4503
+2020-03-27   -1.143622
 Name: Close, dtype: float64"
 41,"Date
-2020-03-30   -1.596375
+2020-03-30    0.042998
 Name: Close, dtype: float64"
 42,"Date
-2020-03-31   -1.305102
+2020-03-31    1.010798
+Name: Close, dtype: float64"
+43,"Date
+2020-04-01   -0.001004
+Name: Close, dtype: float64"
+44,"Date
+2020-04-02    0.172837
+Name: Close, dtype: float64"
+45,"Date
+2020-04-03   -0.151759
+Name: Close, dtype: float64"
+46,"Date
+2020-04-06    0.394637
+Name: Close, dtype: float64"
+47,"Date
+2020-04-07    0.781381
+Name: Close, dtype: float64"
+48,"Date
+2020-04-08    0.267284
+Name: Close, dtype: float64"
+49,"Date
+2020-04-09    0.934008
+Name: Close, dtype: float64"
+50,"Date
+2020-04-14    0.438638
+Name: Close, dtype: float64"
+51,"Date
+2020-04-15    0.024466
+Name: Close, dtype: float64"
+52,"Date
+2020-04-16    0.404704
+Name: Close, dtype: float64"
+53,"Date
+2020-04-17    1.14745
+Name: Close, dtype: float64"
+54,"Date
+2020-04-20    1.528987
+Name: Close, dtype: float64"
+55,"Date
+2020-04-21    3.228752
+Name: Close, dtype: float64"
+56,"Date
+2020-04-22    3.213666
+Name: Close, dtype: float64"
+57,"Date
+2020-04-23    2.409773
+Name: Close, dtype: float64"
+58,"Date
+2020-04-24    2.54402
+Name: Close, dtype: float64"
+59,"Date
+2020-04-27    2.736971
+Name: Close, dtype: float64"
+60,"Date
+2020-04-28    2.534011
+Name: Close, dtype: float64"
+61,"Date
+2020-04-29    1.026533
+Name: Close, dtype: float64"
+62,"Date
+2020-04-30    0.279728
+Name: Close, dtype: float64"
+63,"Date
+2020-05-04   -0.161756
+Name: Close, dtype: float64"
+64,"Date
+2020-05-05    0.073391
+Name: Close, dtype: float64"
+65,"Date
+2020-05-06   -0.162934
+Name: Close, dtype: float64"
+66,"Date
+2020-05-07   -0.247628
+Name: Close, dtype: float64"
+67,"Date
+2020-05-08   -0.284782
+Name: Close, dtype: float64"
+68,"Date
+2020-05-11   -0.357412
+Name: Close, dtype: float64"
+69,"Date
+2020-05-12   -0.691489
+Name: Close, dtype: float64"
+70,"Date
+2020-05-13   -0.913761
+Name: Close, dtype: float64"
+71,"Date
+2020-05-14   -1.03925
+Name: Close, dtype: float64"
+72,"Date
+2020-05-15   -0.857599
+Name: Close, dtype: float64"
+73,"Date
+2020-05-18   -1.057376
+Name: Close, dtype: float64"
+74,"Date
+2020-05-19   -0.776382
+Name: Close, dtype: float64"
+75,"Date
+2020-05-20   -0.937534
+Name: Close, dtype: float64"
+76,"Date
+2020-05-22   -0.747625
+Name: Close, dtype: float64"
+77,"Date
+2020-05-25   -0.800044
+Name: Close, dtype: float64"
+78,"Date
+2020-05-26   -0.520351
 Name: Close, dtype: float64"
